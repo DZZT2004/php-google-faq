@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+}
+
+header > img{
+    margin: 15px;
+}
+
+header > span{
+    font-size: 26px;
+    position: relative;
+    bottom: 20px;
+    color: grey;
+}
+
+nav{
+    display: flex;
+    gap: 35px;
+    margin-left: 10px;
+}
+
+nav > a{
+    text-decoration: none;
+    color: grey;
+    font-size: 18px;
+}
+
+.contenitore{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 400px;
+    text-decoration: none;
+}
+
+.question{
+    margin-top: 50px;
+}
+
+.contenitore p a{
+    text-decoration: none;
+}
